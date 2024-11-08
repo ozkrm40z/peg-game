@@ -6,11 +6,15 @@
 
 ## How to run
 
-1. Build the docker container
+1. Go to the root path
+```
+C:\> cd code/peg-game
+```
+2. Build the docker container
 ```
 Docker build -t peggame .
 ```
-2. Run the docker container
+3. Run the docker container
 ```
 Docker run -it peggame .
 ```
